@@ -2,46 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Rohan's site!</title>	
-	  <style type="text/css">
-		  #clock {
-			  width:900px;
-			  margin:150px;
-			  text-align: center;
-			  font-size: 150px
-	<style>
-	<head>			  
-	<body>
-	<div id="clock">10:00:01</div>
-	<script type="text/javascript">
-		setInterval(displayclock, 500);
-		funciton displayclock () {
-			var time = new Date();
-			var hrs = time.getHours();
-			var min = time.getMinutes();
-			var sec = time.getSeconds();
-			
-		if (hrs > 12){
-			hrs = hrs - 12;
-		}
-			
-		if (hrs == 0) {
-			hrs = 12;
-		}
-			
-		if (hrs < 10) {
-			hrs = '0' + hrs;
-		}
-			
-		if (min < 10) {
-			min = '0' + min;
-		}
-			
-		if (sec < 10) {
-			sec = '0' + sec;
-		}
-	  
-	document.getElementById('clock').innerHTML = hrs + ':' + min + ':' + sec;
+    <title>Rohan's site!</title>
 			
 	  <style>
 	  body {
